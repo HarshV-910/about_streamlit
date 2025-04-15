@@ -15,6 +15,7 @@ st.header("this is st.header")
 st.subheader("this is st.subheader")
 st.markdown("this is st.markdown")
 st.caption("this is st.caption")
+st.write("`this is st.write under backtick`")
 
 code_example = '''
 def greet(name):
@@ -43,10 +44,16 @@ if st.button("this is st.loading"):
     st.success("Done! ✅")
 
 if st.button("this is st.audio"):
-    st.audio("audio1.mp3")    
+    st.audio("audio1.mp3")
+
+if st.button("this is st.help"):
+    st.help("this is st.help")
 
 st.success("this is st.success")
+st.info("this is st.info")
 st.warning("this is st.warning")
+st.error("this is st.error")
+st.exception("this is st.exception")
 
 
 
